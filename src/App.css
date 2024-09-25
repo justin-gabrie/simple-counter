@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  min-height: 100vh;
+  padding: 0 2rem
+}
+
+.reset-wrapper {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  padding-top:2rem ;
+}
+
+.reset-wrapper img:hover {
+  height: 1.8rem;
+}
+
+.count-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container img {
+  cursor: pointer;
+}
+
+.count {
+  font-size: 15rem;
+}
